@@ -26,6 +26,8 @@ public class Footsteps : MonoBehaviour
     [SerializeField]
     private bool isJumping = false;
 
+    public string surfaceParameter = null;
+
     void Start()
     {
         distToGround = GetComponent<Collider>().bounds.extents.y;
@@ -137,7 +139,7 @@ public class Footsteps : MonoBehaviour
     private void PlaySurfaceSound(FMOD.Studio.EventInstance soundInstance, EventReference eventRef, string surfaceTag)
     {
         // Zmienna przechowująca parametr FMOD. Domyślnie ustawiona na null/pusty string.
-        string surfaceParameter = null; 
+        surfaceParameter = null; 
 
         // Instrukcja SWITCH do mapowania Tagu na Parametr FMOD.
         switch (surfaceTag)
