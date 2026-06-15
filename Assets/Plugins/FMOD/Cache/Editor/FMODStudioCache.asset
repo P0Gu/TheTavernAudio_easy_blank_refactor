@@ -41,10 +41,10 @@ MonoBehaviour:
   Path: ../../SFX Class/FMOD/SFX Class/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639167773756611162
+  lastModified: 639171297486920852
   FileSizes:
   - Name: Desktop
-    Value: 8471264
+    Value: 8364256
   Exists: 1
 --- !u!114 &-7747792730719483523
 MonoBehaviour:
@@ -61,10 +61,10 @@ MonoBehaviour:
   Path: ../../SFX Class/FMOD/SFX Class/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639167773756637178
+  lastModified: 639171297486936277
   FileSizes:
   - Name: Desktop
-    Value: 1348
+    Value: 1562
   Exists: 1
 --- !u!114 &-7701591876118663627
 MonoBehaviour:
@@ -244,7 +244,7 @@ MonoBehaviour:
   Name: Footsteps
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 1
   Default: 0
   ID:
     data1: 3743873998
@@ -254,7 +254,6 @@ MonoBehaviour:
   Labels:
   - Wood
   - Stone
-  - Bed
   Exists: 1
 --- !u!114 &-4293458384116398351
 MonoBehaviour:
@@ -346,7 +345,7 @@ MonoBehaviour:
   Name: Footsteps
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 1
   Default: 0
   ID:
     data1: 3743873998
@@ -356,7 +355,6 @@ MonoBehaviour:
   Labels:
   - Wood
   - Stone
-  - Bed
   Exists: 1
 --- !u!114 &-1962643696614547929
 MonoBehaviour:
@@ -467,7 +465,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 179000
+  Length: 170000
 --- !u!114 &-433854565128847450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,7 +525,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -7747792730719483523}
   cacheVersion: 131859
-  cacheTime: 639167773756637178
+  cacheTime: 639171297486936277
   SerializableEventsDict:
   - key: event:/OS_Door
     index: 0
@@ -568,7 +566,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8033514178582350378}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
@@ -670,7 +668,7 @@ MonoBehaviour:
   Name: Footsteps
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 1
   Default: 0
   ID:
     data1: 3743873998
@@ -680,7 +678,6 @@ MonoBehaviour:
   Labels:
   - Wood
   - Stone
-  - Bed
   Exists: 1
 --- !u!114 &6609190247223339810
 MonoBehaviour:
